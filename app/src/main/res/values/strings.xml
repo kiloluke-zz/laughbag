@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LaughBag</string>
+    <string name="laugh_rec">LaughRecord</string>
+    <string name="play_all">Play All</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="rename">Rename</string>
+    <string name="save">Save</string>
+    <string name="name_the_laugh">Name the laugh</string>
+    <string name="error_name_is_empty">Error! Name can not be empty</string>
+    <string name="sure_you_want_to_delete">Are you sure?</string>
+    <string name="file_already_exists">Error! File already exists</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+</resources>

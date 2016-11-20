@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/editText"
+        android:hint="@string/name_the_laugh"
+        android:layout_weight="0.13" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:text="@string/cancel"
+            android:id="@+id/cancel_save"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:text="@string/save"
+            android:id="@+id/save"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="397dp"
+        android:layout_height="17dp"
+        android:text=""
+        android:textSize="10pt"
+        android:textColor="#f1ff1007"
+        android:id="@+id/textView"
+        android:layout_weight="0.14" />
+
+</LinearLayout>
